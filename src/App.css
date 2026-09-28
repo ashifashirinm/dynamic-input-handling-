@@ -1,0 +1,28 @@
+body {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #444;
+}
+
+.form-control {
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+}
+
+.form-control::placeholder {
+  color: #aaa;
+}
+
+.form-control:focus {
+  background-color: #222;
+  color: white;
+  border-color: #888;
+  box-shadow: none;
+}
